@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DONI COFFEE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>DONI COFFEE</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Лучший кофе в городе</h2>
+      <p>Почувствуй вкус настоящего зерна!</p>
+      <a href="#menu" class="btn">Посмотреть меню</a>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="container">
+      <h2>Наше меню</h2>
+      <div class="carousel-wrapper">
+        <button id="prev" class="arrow" aria-label="Назад">←</button>
+        <div class="carousel" id="carousel">
+          <div class="carousel-item espresso">
+            <h3>Эспрессо</h3>
+            <p>Маленькая чашка энергии.</p>
+          </div>
+          <div class="carousel-item cappuccino">
+            <h3>Капучино</h3>
+            <p>Идеальное сочетание молока и кофе.</p>
+          </div>
+          <div class="carousel-item latte">
+            <h3>Латте</h3>
+            <p>Нежный и ароматный напиток.</p>
+          </div>
+        </div>
+        <button id="next" class="arrow" aria-label="Вперёд">→</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2>Отзывы в 2GIS</h2>
+      <div class="item">
+        <p>“Очень вкусный кофе и уютная атмосфера!” — Айгүл</p>
+      </div>
+      <div class="item">
+        <p>“Всегда приятно заглянуть сюда утром. Персонал на высоте!” — Данияр</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="map" id="map">
+    <div class="container">
+      <h2>Найдите нас</h2>
+      <p>Адрес: Жетысу 2, 16А</p>
+      <iframe
+        src="https://www.google.com/maps?q=Жетысу+2+16А&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+ <section class="contact" id="contact">
+  <div class="container">
+    <h2>Связаться с нами</h2>
+    <p class="subtitle">У вас есть вопросы или пожелания? Напишите нам в WhatsApp!</p>
+    
+    <a href="https://wa.me/77751324565" target="_blank" class="btn whatsapp-btn">
+      Написать в WhatsApp
+    </a>
+  </div>
+</section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DONI COFFEE. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
